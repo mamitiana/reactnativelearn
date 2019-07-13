@@ -4,9 +4,9 @@ import { StyleSheet , Text , View} from 'react-native'
 const PresentationalComponent = (props) => {
     return (
 
-        <View>
+        <View >
 
-            <Text onPress = {props.updateState}>
+            <Text style = {styles.myState} onPress = {props.updateState}>
                 {props.myState1}
             </Text>
         </View>
@@ -15,13 +15,14 @@ const PresentationalComponent = (props) => {
 
 
 
-const styles = StyleSheet.create({
-    container: {
-       flex: 1,
-       backgroundColor: '#fff',
-       alignItems: 'center',
-       justifyContent: 'center',
-    },
- });
+const styles = StyleSheet.create ({
+    myState: {
+       marginTop: 20,
+       textAlign: 'center',
+       color: 'blue',
+       fontWeight: 'bold',
+       fontSize: 20
+    }
+ })
 
 export default PresentationalComponent
