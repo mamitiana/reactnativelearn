@@ -1,9 +1,9 @@
 import React from 'react'
 import List from './components/List'
-
+import Inputs from './components/Input'
 const App = () => {
    return (
-      <List />
+      <Inputs />
    )
 }
 export default App
