@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { StatusBar } from 'react-native'
+import React from 'react'
+import GeolocationExample from './components/geolocalisation'
 
 const App = () => {
    return (
-      <StatusBar barStyle = "dark-content" hidden = {false} backgroundColor = "#00BCD4" translucent = {true}/>
+      <GeolocationExample />
    )
 }
 export default App
