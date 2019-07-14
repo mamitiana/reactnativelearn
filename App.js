@@ -1,9 +1,9 @@
 import React from 'react'
-import ActivityIndicatorExample from './components/activity_indicator_example.js'
+import PickerExample from './components/PickerExample'
 
-const Home = () => {
+const App = () => {
    return (
-      <ActivityIndicatorExample />
+      <PickerExample />
    )
 }
-export default Home
+export default App
