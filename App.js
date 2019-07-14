@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import ModalExample from './components/modal_example'
+import React from 'react'
+import ActivityIndicatorExample from './components/activity_indicator_example.js'
 
 const Home = () => {
    return (
-      <ModalExample/>
+      <ActivityIndicatorExample />
    )
 }
-export default Home;
+export default Home
