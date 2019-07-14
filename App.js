@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
-import { AppRegistry, View } from 'react-native';
-import Routes from './components/Routes'
+import React, { Component } from 'react'
+import ModalExample from './components/modal_example'
 
-class reactTutorialApp extends Component {
-   render() {
-      return (
-         <Routes />
-      )
-   }
+const Home = () => {
+   return (
+      <ModalExample/>
+   )
 }
-export default reactTutorialApp
-AppRegistry.registerComponent('reactTutorialApp', () => reactTutorialApp)
+export default Home;
