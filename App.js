@@ -1,22 +1,9 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import PresentationalComponent from './components/PresentationalComponent'
+import React from 'react'
+import List from './components/List'
 
-
-export default class App extends React.Component {
-
-  state = {
-    myState1: 'my state one , lorem ipsum'
-  }
-
-  updateState = () => this.setState({myState1 : 'niova ny states'})
-   render() {
-      return (
-        <View>
-        <PresentationalComponent myState1 = {this.state.myState1}  updateState = {this.updateState} />
-        </View>
-      );
-   }
+const App = () => {
+   return (
+      <List />
+   )
 }
-
-
+export default App
